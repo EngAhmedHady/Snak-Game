@@ -28,7 +28,7 @@ HighScore = 0
 
 # Setup the screen 
 wn = turtle.Screen() #---------------Define a screen (can be any variable name)
-wn.title("Snake Game By Hady")   # -------Window title
+wn.title("Snake Game By Hady") # ----Window title
 wn.bgcolor("DarkBlue")  # -----------Background color
 wn.setup(width = 600, height= 600) #-Screen Dimension
 wn.tracer(0) # ----------------------Turns off screen Update !!
@@ -38,9 +38,9 @@ head = turtle.Turtle()
 head.speed(0) #---!!!
 head.shape("square") # --------------Draw the head of the snake as Square shape
 head.color("yellow") # --------------Head Color
-head.penup() # ----------------------Turtle Draw lines so by this line it will draw nothing-- !!!
+head.penup() # ----------------------Turtle Draw lines so by this line it will draw nothing-- 
 head.goto(0,0) # --------------------Where the head is start (the center of the screen)
-head.direction = "stop" #--------------usful later !!
+head.direction = "stop" 
 
 # Snake Food
 Food = turtle.Turtle()
@@ -49,9 +49,9 @@ Food.shape("circle") # --------------Draw the head of the snake as Square shape
 Food.color("Lightgreen") # --------------Head Color
 x = random.randint(10,200)
 y = random.randint(10,200)
-Food.penup() # ----------------------Turtle Draw lines so by this line it will draw nothing-- !!!
+Food.penup() # ----------------------Turtle Draw lines so by this line it will draw nothing-- 
 Food.goto(x,y) # --------------------Where the head is start (the center of the screen)
-Food.direction = "stop" #--------------usful later !!
+Food.direction = "stop" 
 
 # Snake Tale segmants
 Tail = []
