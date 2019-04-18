@@ -3,6 +3,13 @@
 """
 Created on Wed Apr 17 23:11:29 2019
 
+## === Game Controls === ##
+## W      -->      up    ##
+## S      -->     Down   ##
+## A      -->     left   ##
+## D      -->     right  ##
+## ===================== ##
+
 @author: hady
 """
 import IPython
